@@ -7,6 +7,7 @@ import ForgotPassword from "./Components-Login/ForgotPassword";
 import ResetPasswordLinkSent from "./Components-Login/ResetSuccessful";
 import AdminLogin from "./Components-Admin/AdminLogin";
 import LandingPage from "./Components-landingPage/LandingPage";
+import ResetSuccessful from "./Components-Login/ResetSuccessful";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/forgot-password" element={<ForgotPassword />} />
 
         {/* Reset Password Link Sent Page */}
-        <Route path="/reset-successful" element={<ResetPasswordLinkSent />} />
+        <Route path="/reset-successful" element={<ResetSuccessful/>} />
 
         {/* Recruiter Registration Page */}
         <Route path="/recruiter-registration" element={<UserRegRecruiter />} />
