@@ -29,7 +29,7 @@ const ForgotPassword = () => {
     }
     setError("");
     setSuccess(true);
-    navigate("/ResetPasswordLinkSent");
+    navigate("/OTPVerification");
   };
   return (
     <div className="air-forgot-container">
